@@ -10,7 +10,7 @@ class SongsController < ApplicationController
         redirect_to @song
       end
     else
-        @songs = Song.all
+      @songs = Song.all
 
     end
   end
